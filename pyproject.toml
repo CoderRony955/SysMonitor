@@ -1,0 +1,15 @@
+[project]
+name = "sysmonitor"
+version = "0.1.0"
+description = "System hardware monitor"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "auto-py-to-exe>=2.46.0",
+    "httpx>=0.28.1",
+    "psutil>=7.0.0",
+    "pyqt6>=6.9.1",
+    "pyqt6-qt6>=6.9.1",
+    "pyside6>=6.9.1",
+    "requests>=2.32.4",
+]
